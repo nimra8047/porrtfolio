@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nimra Abdul Sattar | GHL Expert</title>
+  <meta name="description" content="Nimra Abdul Sattar is a Go High Level expert based in Multan, Pakistan. CRM workflows, funnels, SMS and email automation, and integrations for small businesses." />
+  <meta name="theme-color" content="#0d0d0d" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230d0d0d'/%3E%3Cpath d='M9 22V9L23 22V9' fill='none' stroke='%23eb5939' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='9' y='26' width='14' height='2' rx='1' fill='%23eb5939' opacity='.55'/%3E%3C/svg%3E" />
+  <noscript><style>.reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0d0d0d;
+  --bg2: #161616;
+  --text: #b7ab98;
+  --text-bright: #d4c9b8;
+  --muted: #978d7e;
+  --dim: #857d70;
+  --accent: #eb5939;
+  --border: #2a2a2a;
+  --font: 'Nunito Sans', system-ui, sans-serif;
+  --display: 'Syne', system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+ul { list-style: none; }
+img { max-width: 100%; display: block; }
+
+/* NAV */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 5vw;
+  background: var(--bg);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s;
+}
+nav.scrolled { border-bottom-color: var(--border); }
+.logo {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: var(--text);
+  transition: color 0.2s, transform 0.25s ease;
+  display: inline-block;
+}
+.logo:hover { color: var(--accent); transform: scale(1.05); }
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 120px 5vw 80px;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.hero-tag {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 32px;
+}
+.hero h1 {
+  font-family: var(--display);
+  font-size: clamp(36px, 10vw, 96px);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  color: var(--text);
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+.hero h1 .accent { color: var(--accent); }
+.hero-sub {
+  font-size: 17px;
+  color: var(--muted);
+  max-width: 560px;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: var(--accent);
+  color: #0d0d0d;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: opacity 0.2s, transform 0.25s ease;
+}
+.btn:hover { opacity: 0.92; transform: scale(1.04); }
+
+/* SECTIONS */
+section {
+  padding: 90px 5vw;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid var(--border);
+}
+.section-title {
+  font-family: var(--display);
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  margin-bottom: 40px;
+  color: var(--text-bright);
+  text-transform: uppercase;
+}
+.about-text {
+  font-size: 17px;
+  color: var(--muted);
+  line-height: 1.8;
+  max-width: 780px;
+}
+
+/* CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border-top: 1px solid var(--border);
+  overflow: visible;
+}
+@media (min-width: 1100px) {
+  .cards { grid-template-columns: 1fr 1fr 1fr; }
+  .cards .card { border-right: 1px solid var(--border); }
+  .cards .card:nth-child(2n) { border-right: 1px solid var(--border); }
+  .cards .card:nth-child(3n) { border-right: none; }
+}
+.card {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  padding: 28px 24px;
+  transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+  transform-origin: center;
+}
+.cards .card:nth-child(2n) { border-right: none; }
+.card:hover {
+  background: #1a1210;
+  border-color: var(--accent);
+  transform: scale(1.03);
+  z-index: 2;
+  position: relative;
+}
+.card h3 {
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+  color: var(--text-bright);
+  text-transform: uppercase;
+  transition: color 0.25s;
+}
+.card:hover h3 { color: var(--accent); }
+.card p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.65;
+  transition: color 0.25s;
+}
+.card:hover p { color: var(--text); }
+
+/* PROJECT */
+.project-card {
+  border: 1px solid var(--border);
+  padding: 32px;
+  cursor: pointer;
+  transition: border-color 0.3s, background 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
+  background: var(--bg);
+}
+.project-card:hover {
+  border-color: var(--accent);
+  background: #1a1210;
+  transform: scale(1.02);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+.project-meta {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.project-title {
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-bright);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: -0.3px;
+}
+.project-desc {
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-bottom: 20px;
+  max-width: 720px;
+}
+.project-cta {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--text-bright);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s, gap 0.2s;
+}
+.project-card:hover .project-cta {
+  color: var(--accent);
+  gap: 12px;
+}
+
+/* EXPERIENCE */
+.job {
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+  transition: padding-left 0.3s ease;
+}
+.job:hover { padding-left: 8px; }
+.job:hover .job-role { color: var(--accent); }
+.job:last-child { border-bottom: none; }
+.job-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+.job-role {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-bright);
+  letter-spacing: -0.3px;
+  transition: color 0.25s;
+}
+.job-date {
+  font-size: 12px;
+  color: var(--dim);
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+.job-company {
+  font-size: 14px;
+  color: var(--accent);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.job ul li {
+  font-size: 14.5px;
+  color: var(--muted);
+  padding-left: 16px;
+  position: relative;
+  margin-bottom: 7px;
+  line-height: 1.55;
+}
+.job ul li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--dim);
+}
+
+/* EDU */
+.edu-block { margin-bottom: 36px; }
+.edu-degree {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: var(--text-bright);
+}
+.edu-meta { font-size: 14px; color: var(--dim); }
+.cert {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 14.5px;
+  transition: padding-left 0.25s, color 0.25s;
+}
+.cert:hover { padding-left: 8px; }
+.cert:hover .cert-name { color: var(--accent); }
+.cert:last-child { border-bottom: none; }
+.cert-name { font-weight: 500; color: var(--text); }
+.cert-org { color: var(--dim); font-size: 13px; white-space: nowrap; }
+
+/* TAGS */
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tag {
+  padding: 8px 16px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 500;
+  transition: border-color 0.25s, color 0.25s, background 0.25s, transform 0.25s ease;
+}
+.tag:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: #1a1210;
+  transform: scale(1.06);
+}
+
+/* MOTTO */
+.motto {
+  text-align: center;
+  padding: 110px 5vw;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid var(--border);
+}
+.motto blockquote {
+  font-family: var(--display);
+  font-size: clamp(26px, 5vw, 40px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  margin-bottom: 18px;
+  color: var(--text-bright);
+  text-transform: uppercase;
+}
+.motto cite {
+  font-size: 12px;
+  color: var(--dim);
+  font-style: normal;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* CONTACT */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+@media (min-width: 1100px) {
+  .contact-grid { grid-template-columns: repeat(4, 1fr); }
+}
+.contact-item {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 22px;
+  transition: border-color 0.25s, background 0.25s, transform 0.3s ease, box-shadow 0.25s;
+}
+.contact-item:hover {
+  border-color: var(--accent);
+  background: #1a1210;
+  transform: scale(1.03);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+.contact-item:hover .contact-value { color: var(--accent); }
+.contact-item:hover .contact-label { color: var(--accent); }
+.contact-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--dim);
+  margin-bottom: 8px;
+  transition: color 0.25s;
+}
+.contact-value {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-bright);
+  word-break: break-all;
+  transition: color 0.25s;
+}
+.contact-note {
+  font-size: 12px;
+  color: var(--dim);
+  margin-top: 6px;
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 28px 5vw;
+  text-align: center;
+  font-size: 12px;
+  color: var(--dim);
+  letter-spacing: 0.5px;
+}
+
+/* Pro / honest: 3D flip */
+.flip {
+  display: grid;
+  perspective: 1000px;
+}
+.flip > .pro,
+.flip > .hon {
+  grid-area: 1 / 1;
+  display: block;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: transform 0.8s cubic-bezier(0.22, 0.8, 0.24, 1);
+}
+.flip > .pro { transform: rotateX(0deg); }
+.flip > .hon { transform: rotateX(180deg); }
+.flip.is-flipped > .pro,
+.flip-host.is-flipped .flip > .pro,
+.flip-host:focus-visible .flip > .pro { transform: rotateX(-180deg); }
+.flip.is-flipped > .hon,
+.flip-host.is-flipped .flip > .hon,
+.flip-host:focus-visible .flip > .hon { transform: rotateX(0deg); }
+@media (hover: hover) {
+  .flip:hover > .pro,
+  .flip-host:hover .flip > .pro { transform: rotateX(-180deg); }
+  .flip:hover > .hon,
+  .flip-host:hover .flip > .hon { transform: rotateX(0deg); }
+}
+.section-title.flip,
+.hero h1.flip,
+.hero-tag.flip { width: fit-content; max-width: 100%; }
+
+/* MODAL */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 20px;
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.modal-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+.modal {
+  background: #111;
+  border: 1px solid var(--border);
+  max-width: 900px;
+  width: 100%;
+  padding: 36px 32px;
+  position: relative;
+  transform: perspective(1200px) rotateX(-8deg) translateY(20px);
+  transform-origin: 50% 0;
+  transition: transform 0.5s cubic-bezier(0.22, 0.8, 0.24, 1);
+}
+.modal-overlay.open .modal { transform: perspective(1200px) rotateX(0deg) translateY(0); }
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  font-size: 18px;
+  color: var(--muted);
+  transition: border-color 0.2s, color 0.2s;
+}
+.modal-close:hover { border-color: var(--muted); color: var(--text); }
+.modal-header {
+  margin-bottom: 28px;
+  padding-right: 40px;
+}
+.modal-header h2 {
+  font-family: var(--display);
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-bright);
+  margin-bottom: 8px;
+  letter-spacing: -0.3px;
+}
+.modal-header p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.wf-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.wf-item {
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: border-color 0.25s, transform 0.3s ease;
+}
+.wf-item:hover {
+  border-color: var(--accent);
+  transform: scale(1.01);
+}
+.wf-item-title {
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text-bright);
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  background: #141414;
+}
+.wf-item-imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: #0a0a0a;
+}
+.wf-item-imgs img {
+  width: 100%;
+  height: auto;
+}
+
+/* RESPONSIVE: large screens */
+@media (min-width: 1200px) {
+  .hero h1 { font-size: clamp(56px, 7vw, 96px); }
+  .hero-sub { max-width: 640px; }
+  .about-text { max-width: 70%; }
+  .project-desc { max-width: 60%; }
+}
+@media (min-width: 1600px) {
+  .hero h1 { font-size: clamp(72px, 6.5vw, 112px); }
+  .hero-sub { max-width: 720px; font-size: 18px; }
+  .about-text { max-width: 65%; font-size: 18px; }
+  .section-title { font-size: 48px; }
+  .project-desc { max-width: 55%; }
+}
+@media (min-width: 1920px) {
+  .hero h1 { font-size: clamp(80px, 6vw, 120px); }
+  nav, .hero, section, .motto, footer {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+}
+
+@media (max-width: 900px) {
+  nav { padding: 16px 20px; }
+  .hero { padding: 100px 20px 60px; }
+  .hero h1 { font-size: clamp(36px, 10vw, 64px); letter-spacing: -1.5px; }
+  section { padding: 70px 20px; }
+  .motto { padding: 80px 20px; }
+  .section-title { font-size: clamp(24px, 5vw, 36px); }
+  .modal { padding: 28px 20px; }
+}
+
+@media (max-width: 640px) {
+  nav { padding: 14px 16px; }
+  .logo { font-size: 16px; }
+  .hero { padding: 90px 16px 50px; }
+  .hero-tag { font-size: 10px; letter-spacing: 2px; margin-bottom: 24px; }
+  .hero h1 {
+    font-size: clamp(32px, 11.5vw, 48px);
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+  }
+  .hero-sub { font-size: 15px; max-width: 100%; margin-bottom: 28px; }
+  .btn { padding: 12px 22px; font-size: 12px; width: 100%; text-align: center; }
+  section { padding: 56px 16px; }
+  .section-title { font-size: clamp(22px, 7vw, 30px); margin-bottom: 28px; }
+  .about-text { font-size: 15px; max-width: 100%; }
+  .cards { grid-template-columns: 1fr; }
+  .card { border-right: none; padding: 22px 0; }
+  .cards .card:nth-child(2n) { border-right: none; }
+  .card h3 { font-size: 14px; }
+  .card p { font-size: 13.5px; }
+  .project-card { padding: 24px 20px; }
+  .project-title { font-size: 18px; }
+  .job { padding: 24px 0; }
+  .job-top { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .job-role { font-size: 17px; }
+  .job-date { font-size: 11px; }
+  .job-company { font-size: 13px; margin-bottom: 12px; }
+  .job ul li { font-size: 13.5px; }
+  .edu-degree { font-size: 17px; }
+  .cert { flex-direction: column; align-items: flex-start; gap: 4px; padding: 12px 0; }
+  .cert-name { font-size: 14px; }
+  .cert-org { font-size: 12px; }
+  .tags { gap: 6px; }
+  .tag { padding: 6px 12px; font-size: 12px; }
+  .motto { padding: 64px 16px; }
+  .motto blockquote { font-size: clamp(20px, 6vw, 28px); }
+  .motto cite { font-size: 11px; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .contact-item { padding: 18px; }
+  .contact-value { font-size: 14px; }
+  footer { padding: 20px 16px; font-size: 11px; }
+  .modal-overlay { padding: 16px 12px; }
+  .modal { padding: 24px 16px; }
+  .modal-header h2 { font-size: 18px; }
+}
+
+@media (max-width: 380px) {
+  .hero h1 { font-size: clamp(28px, 12vw, 36px); }
+  .hero-tag { font-size: 9px; letter-spacing: 1.5px; }
+}
+
+/* Responsive safety net: 0px up to 1800px and beyond */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+nav { gap: 12px; }
+.logo { flex-shrink: 0; }
+.flip { grid-template-columns: minmax(0, 1fr); }
+.flip > .pro, .flip > .hon { min-width: 0; overflow-wrap: anywhere; }
+.btn { max-width: 100%; }
+.contact-value, .contact-note, .project-meta { overflow-wrap: anywhere; }
+@media (max-width: 400px) {
+  .job-date, .cert-org { white-space: normal; }
+  section { padding-left: 14px; padding-right: 14px; }
+  nav, .hero, .motto, footer { padding-left: 14px; padding-right: 14px; }
+}
+@media (max-width: 640px) and (orientation: landscape) {
+  .hero { min-height: auto; padding-top: 84px; }
+}
+
+.job-company a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  overflow-wrap: anywhere;
+  transition: border-color 0.2s;
+}
+.job-company a:hover,
+.job-company a:focus-visible { border-bottom-color: currentColor; }
+
+/* Scroll reveal: soft 3D tilt-in. Kept last so it wins over component transitions;
+   the script removes the classes once an element has appeared. */
+.reveal {
+  opacity: 0;
+  transform: perspective(900px) rotateX(12deg) translateY(28px);
+  transform-origin: 50% 0;
+  transition: opacity 0.7s ease, transform 0.8s cubic-bezier(0.22, 0.8, 0.24, 1);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: perspective(900px) rotateX(0deg) translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .flip > .pro, .flip > .hon, .modal { transition-duration: 0.01s; }
+}
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="logo">Nimra</a>
+</nav>
+
+<header class="hero">
+  <p class="hero-tag reveal flip">
+    <span class="pro">GHL Expert</span>
+    <span class="hon">Still learning · Still shipping</span>
+  </p>
+  <h1 class="reveal reveal-delay-1 flip">
+    <span class="pro">Building<br>systems<br>that<br><span class="accent">work.</span></span>
+    <span class="hon">Automating<br>the boring<br>stuff so<br><span class="accent">you don't.</span></span>
+  </h1>
+  <p class="hero-sub reveal reveal-delay-2 flip">
+    <span class="pro">Computer science graduate and Go High Level specialist. I help businesses set up CRM workflows, sales funnels, and automations that save time and convert leads.</span>
+    <span class="hon">CS grad who spends most days inside Go High Level, Zapier, and SMS compliance settings. I build the systems that capture leads and book appointments so you can stop living in your inbox.</span>
+  </p>
+  <a href="#contact" class="btn reveal reveal-delay-3">Get in touch</a>
+
+</header>
+
+<section id="about">
+  <h2 class="section-title reveal flip">
+    <span class="pro">About</span>
+    <span class="hon">Who I am</span>
+  </h2>
+  <p class="about-text reveal reveal-delay-1 flip">
+    <span class="pro">A computer science graduate and Go High Level (GHL) expert with expertise in automation, chatbot development and website building. Specialize in helping businesses design streamlined, high-converting systems that enhance customer journeys, optimize workflows, and save valuable time. Known for being proactive, analytical, and solution-driven, with a strong passion for leveraging technology to drive growth and create meaningful customer experiences.</span>
+    <span class="hon">I'm a CS graduate who got good at Go High Level and making sure SMS campaigns don't get blocked. Most of my work is building the boring but important stuff: lead capture, follow ups, appointment booking, so business owners can focus on what they actually enjoy. Still learning. Still shipping.</span>
+  </p>
+</section>
+
+<section id="work">
+  <h2 class="section-title reveal flip">
+    <span class="pro">Services</span>
+    <span class="hon">What I get paid for</span>
+  </h2>
+  <div class="cards">
+    <div class="card reveal flip-host">
+      <h3>GHL &amp; CRM Automation</h3>
+      <div class="flip">
+        <p class="pro">Full Go High Level setup: pipelines, triggers, calendars, forms, and end to end workflows for lead nurturing and client communication.</p>
+        <p class="hon">I live in GHL. Pipelines, stages, triggers, calendars. If it can be automated, I've probably built it (and fixed it when it broke).</p>
+      </div>
+    </div>
+    <div class="card reveal reveal-delay-1 flip-host">
+      <h3>Funnels &amp; Landing Pages</h3>
+      <div class="flip">
+        <p class="pro">High converting landing pages, sales funnels, and websites built in GHL, designed for clarity and conversion.</p>
+        <p class="hon">Pages that ask for the email and look decent doing it. Built inside GHL, not dragged from a generic template.</p>
+      </div>
+    </div>
+    <div class="card reveal flip-host">
+      <h3>Integrations</h3>
+      <div class="flip">
+        <p class="pro">Connecting GHL with Zapier, webhooks, and Facebook Lead Ads for seamless data flow.</p>
+        <p class="hon">Gluing apps together so data moves where it should. Zapier, Make, webhooks, whichever fits.</p>
+      </div>
+    </div>
+    <div class="card reveal reveal-delay-1 flip-host">
+      <h3>SMS &amp; Email Systems</h3>
+      <div class="flip">
+        <p class="pro">A2P 10DLC registration, compliant SMS campaigns, and branded email/SMS templates that improve deliverability.</p>
+        <p class="hon">Making sure texts actually get delivered and don't land you in spam jail. Also writing messages that don't sound like robots.</p>
+      </div>
+    </div>
+    <div class="card reveal flip-host">
+      <h3>Frontend Development</h3>
+      <div class="flip">
+        <p class="pro">Responsive interfaces with HTML, CSS &amp; JavaScript. Custom e commerce with design previews and upload features.</p>
+        <p class="hon">HTML, CSS, JS. Making things look fine on mobile and sometimes adding a design preview that actually works.</p>
+      </div>
+    </div>
+    <div class="card reveal reveal-delay-1 flip-host">
+      <h3>Troubleshooting</h3>
+      <div class="flip">
+        <p class="pro">Fixing workflow failures, integration issues, SMS delivery problems, and lead routing bugs.</p>
+        <p class="hon">When something breaks (and it will), I find out why and fix it. Preferably before anyone notices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="project">
+  <h2 class="section-title reveal">Selected work</h2>
+  <div class="project-card reveal flip-host" id="openProject" role="button" tabindex="0">
+    <div class="project-meta">GHL · Cleaning business · 17 workflows</div>
+    <h3 class="project-title">Full lead to booked pipeline</h3>
+    <p class="project-desc flip">
+      <span class="pro">End to end Go High Level automation for a cleaning company: instant lead response, appointment booking, reminders, no show recovery, nurture sequences, quote follow ups, and review requests. Built with SMS consent checks and business hours routing.</span>
+      <span class="hon">Seventeen workflows that take a form fill from "who is this?" to "they're booked, reminded, and asked for a review." Includes the boring compliance bits so SMS stays legal.</span>
+    </p>
+    <span class="project-cta">View workflows <span aria-hidden="true">→</span></span>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="section-title reveal flip">
+    <span class="pro">Experience</span>
+    <span class="hon">Where I've been</span>
+  </h2>
+
+  <div class="job reveal flip-host">
+    <div class="job-top">
+      <span class="job-role flip">
+        <span class="pro">GHL Specialist</span>
+        <span class="hon">Automation Builder</span>
+      </span>
+      <span class="job-date">January 2026 – September 2026</span>
+    </div>
+    <div class="job-company">CRM Automates</div>
+    <ul>
+      <li class="flip"><span class="pro">Managed GHL accounts and supported US-based clients with CRM setup and automation.</span><span class="hon">Kept US clients' GHL accounts running without major fires.</span></li>
+      <li class="flip"><span class="pro">Built high-converting landing pages, sales funnels, and websites.</span><span class="hon">Built the pages and funnels they needed (and fixed the ones that weren't converting).</span></li>
+      <li class="flip"><span class="pro">Developed automated workflows for lead nurturing, follow-ups, and client communication.</span><span class="hon">Wired up lead nurturing so follow ups actually happened on time.</span></li>
+      <li class="flip"><span class="pro">Created email and SMS templates for automated outreach and follow-up campaigns.</span><span class="hon">Wrote the email and SMS templates behind the outreach and follow up campaigns.</span></li>
+      <li class="flip"><span class="pro">Connected GHL with third-party apps and AI tools to automate workflows.</span><span class="hon">Hooked GHL up to other apps and AI tools so less had to be done by hand.</span></li>
+      <li class="flip"><span class="pro">Handled A2P 10DLC registration and integration for compliant SMS messaging.</span><span class="hon">Dealt with A2P registration so texts could go out legally.</span></li>
+      <li class="flip"><span class="pro">Troubleshoot and resolved workflow, integration, and GHL issues.</span><span class="hon">Worked out why things broke and fixed them.</span></li>
+    </ul>
+  </div>
+
+  <div class="job reveal flip-host">
+    <div class="job-top">
+      <span class="job-role flip">
+        <span class="pro">GHL Expert</span>
+        <span class="hon">Automation Specialist</span>
+      </span>
+      <span class="job-date">September 2024 – January 2026</span>
+    </div>
+    <div class="job-company">Growth Guild</div>
+    <ul>
+      <li class="flip"><span class="pro">Built websites, landing pages, and sales funnels in GHL.</span><span class="hon">Made a lot of GHL pages that didn't look like default templates.</span></li>
+      <li class="flip"><span class="pro">Created automation workflows to reduce manual tasks.</span><span class="hon">Automated the repetitive stuff so people could do more interesting work.</span></li>
+      <li class="flip"><span class="pro">Managed A2P messaging and high-volume SMS campaigns with compliance.</span><span class="hon">Sent a lot of compliant SMS without getting accounts banned.</span></li>
+      <li class="flip"><span class="pro">Designed brand-aligned email and SMS templates.</span><span class="hon">Made emails and texts sound like the brand, not like a template.</span></li>
+      <li class="flip"><span class="pro">Built lead nurturing, follow-up, booking, and reminder workflows.</span><span class="hon">Built the full lead to booking loop: nurturing, follow ups, and reminders.</span></li>
+      <li class="flip"><span class="pro">Managed pipelines, forms, surveys, calendars, and triggers.</span><span class="hon">Pipelines, forms, surveys, calendars, triggers: the full toolkit.</span></li>
+      <li class="flip"><span class="pro">Connected Facebook Lead Ads and other sources for lead capture.</span><span class="hon">Made Facebook leads actually land in the right place.</span></li>
+      <li class="flip"><span class="pro">Integrated AI tools like Claude, Grok, and ChatGPT with GHL.</span><span class="hon">Plugged Claude, Grok, and ChatGPT into GHL where they were useful.</span></li>
+      <li class="flip"><span class="pro">Integrated GHL with third party platforms using Zapier, Webhooks and other integration tools.</span><span class="hon">Glued GHL to other platforms with Zapier, webhooks, and whatever else fit.</span></li>
+      <li class="flip"><span class="pro">Troubleshoot CRM workflows, integrations, and SMS delivery.</span><span class="hon">Tracked down broken workflows, integrations, and SMS that wasn't getting delivered.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title reveal flip">
+    <span class="pro">Project</span>
+    <span class="hon">Things I built</span>
+  </h2>
+
+  <div class="job reveal flip-host">
+    <div class="job-top">
+      <span class="job-role">SparklePro Cleaning Services</span>
+    </div>
+    <div class="job-company"><a href="https://sparklepro-rosy.vercel.app/" target="_blank" rel="noopener">sparklepro-rosy.vercel.app</a></div>
+    <ul>
+      <li class="flip"><span class="pro">Custom-coded a responsive multi-page website for a home cleaning business in GHL.</span><span class="hon">Hand coded a responsive multi page site for a home cleaning business, inside GHL.</span></li>
+      <li class="flip"><span class="pro">Built a conversion-focused homepage with clear offer and quote-request CTAs.</span><span class="hon">A homepage with one clear offer and obvious quote buttons.</span></li>
+      <li class="flip"><span class="pro">Created a Services &amp; Pricing page with a lead-capture quote form.</span><span class="hon">A Services and Pricing page with a quote form that captures leads.</span></li>
+      <li class="flip"><span class="pro">Added an interactive before/after slider to showcase real results.</span><span class="hon">A before/after slider so the results speak for themselves.</span></li>
+      <li class="flip"><span class="pro">Built testimonials and FAQ sections to build trust and boost conversions.</span><span class="hon">Testimonials and FAQs to answer doubts before anyone has to ask.</span></li>
+      <li class="flip"><span class="pro">Optimized with custom meta titles, descriptions, and keywords for local SEO.</span><span class="hon">Custom meta titles, descriptions, and keywords so local searches can find it.</span></li>
+    </ul>
+  </div>
+
+  <div class="job reveal flip-host">
+    <div class="job-top">
+      <span class="job-role">Sam Houston Business Center</span>
+    </div>
+    <div class="job-company">Auto Connects · <a href="https://samhoustonbc.com/" target="_blank" rel="noopener">samhoustonbc.com</a></div>
+    <ul>
+      <li class="flip"><span class="pro">Built a multi-page workspace rental website for SamHouston Business Center.</span><span class="hon">Built a multi page site for a workspace rental business.</span></li>
+      <li class="flip"><span class="pro">Set up GoHighLevel lead-capture forms behind every call to action.</span><span class="hon">Every call to action leads to a GoHighLevel form, so no click goes to waste.</span></li>
+      <li class="flip"><span class="pro">Structured navigation to get visitors from browsing to inquiry in a few clicks.</span><span class="hon">Laid out the navigation so visitors get from browsing to inquiring in a few clicks.</span></li>
+      <li class="flip"><span class="pro">Wrote SEO-optimized, responsive pages targeting local search.</span><span class="hon">Wrote responsive, SEO friendly pages so local searches can find it.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="section-title reveal">Background</h2>
+  <div class="edu-block reveal">
+    <div class="edu-degree">Bachelor's in Computer Science</div>
+    <div class="edu-meta">Virtual University · Pakistan</div>
+  </div>
+  <div class="certs">
+    <div class="cert reveal"><span class="cert-name">Digital Awareness</span><span class="cert-org">Cisco · 2024</span></div>
+    <div class="cert reveal"><span class="cert-name">Introduction to HTML5</span><span class="cert-org">Coursera · 2025</span></div>
+    <div class="cert reveal"><span class="cert-name">Python Programming Fundamentals</span><span class="cert-org">Microsoft · 2025</span></div>
+    <div class="cert reveal"><span class="cert-name">Data Analysis &amp; Visualization with Python</span><span class="cert-org">Microsoft · 2025</span></div>
+    <div class="cert reveal"><span class="cert-name">Introduction to Data Science</span><span class="cert-org">Cisco · 2025</span></div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title reveal flip">
+    <span class="pro">Tools</span>
+    <span class="hon">Daily drivers</span>
+  </h2>
+  <div class="tags reveal">
+    <span class="tag">Go High Level</span>
+    <span class="tag">CRM Automation</span>
+    <span class="tag">Zapier</span>
+    <span class="tag">HTML / CSS / JS</span>
+    <span class="tag">Sales Funnels</span>
+    <span class="tag">Landing Pages</span>
+    <span class="tag">A2P 10DLC</span>
+    <span class="tag">SMS Campaigns</span>
+    <span class="tag">Email Marketing</span>
+    <span class="tag">Facebook Lead Ads</span>
+    <span class="tag">Webhooks</span>
+    <span class="tag">Canva</span>
+    <span class="tag">Adobe Illustrator</span>
+    <span class="tag">Data Analysis</span>
+  </div>
+</section>
+
+<div class="motto reveal flip-host">
+  <blockquote class="flip">
+    <span class="pro">Good systems<br>are honest.</span>
+    <span class="hon">Not all honest<br>systems are good.</span>
+  </blockquote>
+  <cite class="flip">
+    <span class="pro">adapted from Dieter Rams</span>
+    <span class="hon">me, after a long debugging session</span>
+  </cite>
+</div>
+
+<section id="contact">
+  <h2 class="section-title reveal flip">
+    <span class="pro">Let's work together</span>
+    <span class="hon">If you need automations that work</span>
+  </h2>
+  <div class="contact-grid reveal">
+    <a href="mailto:nimra8047@gmail.com" class="contact-item flip-host">
+      <div class="contact-label">Email</div>
+      <div class="contact-value">nimra8047@gmail.com</div>
+      <div class="contact-note flip">
+        <span class="pro">I reply to every message</span>
+        <span class="hon">Actually replies</span>
+      </div>
+    </a>
+    <a href="tel:+923296507650" class="contact-item flip-host">
+      <div class="contact-label">Phone</div>
+      <div class="contact-value">+92 329 650 7650</div>
+      <div class="contact-note flip">
+        <span class="pro">For serious inquiries</span>
+        <span class="hon">Hit or miss on pickup</span>
+      </div>
+    </a>
+    <a href="https://linkedin.com/in/nimra-abdul-sattar-197186381" target="_blank" rel="noopener" class="contact-item">
+      <div class="contact-label">LinkedIn</div>
+      <div class="contact-value">nimra-abdul-sattar</div>
+      <div class="contact-note">Let's connect</div>
+    </a>
+    <div class="contact-item">
+      <div class="contact-label">Location</div>
+      <div class="contact-value">Multan, Pakistan</div>
+      <div class="contact-note">Remote friendly</div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Nimra Abdul Sattar</footer>
+
+<!-- Project modal: workflows hidden until click -->
+<div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <button class="modal-close" id="closeModal" type="button" aria-label="Close">×</button>
+    <div class="modal-header">
+      <h2 id="modalTitle">Cleaning business · GHL workflows</h2>
+      <p>Full automation system: lead capture through booking, reminders, nurture, quote follow up, and review requests. SMS consent checked before every text.</p>
+    </div>
+    <div class="wf-list">
+      <div class="wf-item">
+        <div class="wf-item-title">01 · New lead instant response</div>
+        <div class="wf-item-imgs">
+          <img src="WF 1.1.png" alt="New lead workflow part 1" loading="lazy" />
+          <img src="WF 1.2.png" alt="New lead workflow part 2" loading="lazy" />
+          <img src="WF 1.3.png" alt="New lead workflow part 3" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">02 · Mark contacted</div>
+        <div class="wf-item-imgs">
+          <img src="WF 2.1.png" alt="Mark contacted workflow part 1" loading="lazy" />
+          <img src="WF 2.2.png" alt="Mark contacted workflow part 2" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">03 · Uncontacted lead alert</div>
+        <div class="wf-item-imgs">
+          <img src="WF 3.1.png" alt="Uncontacted lead alert part 1" loading="lazy" />
+          <img src="WF 3.2.png" alt="Uncontacted lead alert part 2" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">04 · Appointment booked</div>
+        <div class="wf-item-imgs">
+          <img src="WF 4.1.png" alt="Appointment booked part 1" loading="lazy" />
+          <img src="WF 4.2.png" alt="Appointment booked part 2" loading="lazy" />
+          <img src="WF 4.3.png" alt="Appointment booked part 3" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">05 · 24 hour appointment reminders</div>
+        <div class="wf-item-imgs">
+          <img src="WF 5.1.png" alt="24h reminder part 1" loading="lazy" />
+          <img src="WF 5.2.png" alt="24h reminder part 2" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">06 · 2 hour appointment reminders</div>
+        <div class="wf-item-imgs">
+          <img src="WF 6.1.png" alt="2h reminder part 1" loading="lazy" />
+          <img src="WF 6.2.png" alt="2h reminder part 2" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">07 · Appointment cancelled</div>
+        <div class="wf-item-imgs">
+          <img src="WF 7.1.png" alt="Appointment cancelled part 1" loading="lazy" />
+          <img src="WF 7.2.png" alt="Appointment cancelled part 2" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">08 · No show recovery</div>
+        <div class="wf-item-imgs">
+          <img src="WF 8.1.png" alt="No show recovery part 1" loading="lazy" />
+          <img src="WF 8.2.png" alt="No show recovery part 2" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">09 · Nurture (email)</div>
+        <div class="wf-item-imgs">
+          <img src="WF 9.1.png" alt="Email nurture part 1" loading="lazy" />
+          <img src="WF 9.2.png" alt="Email nurture part 2" loading="lazy" />
+          <img src="WF 9.3.png" alt="Email nurture part 3" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">10 · Nurture (SMS)</div>
+        <div class="wf-item-imgs">
+          <img src="WF 10.1.png" alt="SMS nurture part 1" loading="lazy" />
+          <img src="WF 10.2.png" alt="SMS nurture part 2" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">11 · Opt out handler</div>
+        <div class="wf-item-imgs">
+          <img src="WF 11.png" alt="Opt out handler" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">12 · Quote follow up (email)</div>
+        <div class="wf-item-imgs">
+          <img src="WF 12.1.png" alt="Quote email follow up part 1" loading="lazy" />
+          <img src="WF 12.2.png" alt="Quote email follow up part 2" loading="lazy" />
+          <img src="WF 12.3.png" alt="Quote email follow up part 3" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">13 · Quote follow up (SMS)</div>
+        <div class="wf-item-imgs">
+          <img src="WF 13.1.png" alt="Quote SMS follow up part 1" loading="lazy" />
+          <img src="WF 13.2.png" alt="Quote SMS follow up part 2" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">14 · Won</div>
+        <div class="wf-item-imgs">
+          <img src="WF 14.1.png" alt="Won workflow part 1" loading="lazy" />
+          <img src="WF 14.2.png" alt="Won workflow part 2" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">15 · Lost</div>
+        <div class="wf-item-imgs">
+          <img src="WF 15.png" alt="Lost workflow" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">16 · Review request (SMS)</div>
+        <div class="wf-item-imgs">
+          <img src="WF 16.1.png" alt="Review SMS part 1" loading="lazy" />
+          <img src="WF 16.2.png" alt="Review SMS part 2" loading="lazy" />
+          <img src="WF 16.3.png" alt="Review SMS part 3" loading="lazy" />
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-item-title">17 · Review request (email)</div>
+        <div class="wf-item-imgs">
+          <img src="WF 17.1.png" alt="Review email part 1" loading="lazy" />
+          <img src="WF 17.2.png" alt="Review email part 2" loading="lazy" />
+          <img src="WF 17.3.png" alt="Review email part 3" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Nav border on scroll
+const nav = document.querySelector('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 20);
+}, { passive: true });
+
+// Scroll reveal
+const delays = { 'reveal-delay-1': 100, 'reveal-delay-2': 200, 'reveal-delay-3': 300 };
+const reveals = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver((entries) => {
+  entries.forEach((e) => {
+    if (!e.isIntersecting) return;
+    const el = e.target;
+    io.unobserve(el);
+    const delay = Object.keys(delays).reduce((d, c) => (el.classList.contains(c) ? delays[c] : d), 0);
+    setTimeout(() => {
+      el.classList.add('visible');
+      // hand the element back to its own hover transitions once it has appeared
+      setTimeout(() => el.classList.remove('reveal', 'visible'), 1000);
+    }, delay);
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+reveals.forEach((el) => io.observe(el));
+
+// Touch devices: tap to flip (mouse users get hover)
+if (window.matchMedia('(hover: none)').matches) {
+  document.querySelectorAll('.flip, .flip-host').forEach((el) => {
+    if (el.id === 'openProject') return;
+    if (!el.classList.contains('flip-host') && el.closest('.flip-host')) return;
+    el.addEventListener('click', () => el.classList.toggle('is-flipped'));
+  });
+  const projectDesc = document.querySelector('.project-desc');
+  if (projectDesc) {
+    projectDesc.addEventListener('click', (e) => {
+      e.stopPropagation();
+      projectDesc.classList.toggle('is-flipped');
+    });
+  }
+}
+
+// Project modal
+const overlay = document.getElementById('projectModal');
+const openBtn = document.getElementById('openProject');
+const closeBtn = document.getElementById('closeModal');
+
+function openModal() {
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal() {
+  overlay.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+if (openBtn) {
+  openBtn.addEventListener('click', openModal);
+  openBtn.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(); }
+  });
+}
+if (closeBtn) closeBtn.addEventListener('click', closeModal);
+if (overlay) {
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) closeModal();
+  });
+}
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && overlay && overlay.classList.contains('open')) closeModal();
+});
+</script>
+</body>
+</html>
